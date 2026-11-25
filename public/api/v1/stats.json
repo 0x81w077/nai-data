@@ -1,0 +1,17 @@
+{
+ "generated_at": "2026-11-25T10:41:32.456405+00:00",
+ "as_of": "2026-11-25T07:00:00+00:00",
+ "newest_reading_at": "2026-11-25T08:00:00+00:00",
+ "data_delay_hours": 3.7,
+ "delayed": false,
+ "share_reporting_at_as_of": 0.26,
+ "delay_note": null,
+ "aqi_scale": "US EPA (2024 PM2.5 breakpoints)",
+ "horizon_hours": 24,
+ "note": "Research forecast, not an official index. Between-station values are estimates (inverse-distance weighting).",
+ "stations_total": 66,
+ "stations_online": 20,
+ "stations_with_forecast": 6,
+ "citywide_pm25_mean": 26.8,
+ "worst_now": "Umoja Nairobi, Kenya"
+}

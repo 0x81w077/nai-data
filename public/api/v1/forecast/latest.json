@@ -1,0 +1,194 @@
+{
+ "generated_at": "2026-11-25T10:41:32.456405+00:00",
+ "as_of": "2026-11-25T07:00:00+00:00",
+ "newest_reading_at": "2026-11-25T08:00:00+00:00",
+ "data_delay_hours": 3.7,
+ "delayed": false,
+ "share_reporting_at_as_of": 0.26,
+ "delay_note": null,
+ "aqi_scale": "US EPA (2024 PM2.5 breakpoints)",
+ "horizon_hours": 24,
+ "note": "Research forecast, not an official index. Between-station values are estimates (inverse-distance weighting).",
+ "stations": [
+  {
+   "id": "airqo-g5148",
+   "site_name": "NCC Embakasi",
+   "lat": -1.3109650560555703,
+   "lon": 36.91170041631061,
+   "reliability": "Use with care",
+   "now": {
+    "aqi": 75.0,
+    "category": "Moderate",
+    "pm25": 48.3,
+    "pm10": 63.5,
+    "pm25_24h": 22.1,
+    "at": "2026-11-25T08:00:00+00:00"
+   },
+   "tomorrow": {
+    "aqi": 77.4,
+    "category": "Moderate",
+    "pm25": 23.5,
+    "pm10": 32.4,
+    "target_time": "2026-11-26T08:00:00+00:00",
+    "method": "Blend",
+    "degraded_inputs": []
+   },
+   "alert": {
+    "enabled": true,
+    "rule": "Forecast >= threshold",
+    "fires": false,
+    "probability": null
+   }
+  },
+  {
+   "id": "airqo-g5149",
+   "site_name": "UoN parklands Campus",
+   "lat": -1.26492,
+   "lon": 36.82126,
+   "reliability": "Reliable",
+   "now": {
+    "aqi": 92.0,
+    "category": "Moderate",
+    "pm25": 9.9,
+    "pm10": null,
+    "pm25_24h": 30.9,
+    "at": "2026-11-25T08:00:00+00:00"
+   },
+   "tomorrow": {
+    "aqi": 77.1,
+    "category": "Moderate",
+    "pm25": 22.3,
+    "pm10": 29.2,
+    "target_time": "2026-11-26T08:00:00+00:00",
+    "method": "Ridge",
+    "degraded_inputs": []
+   },
+   "alert": {
+    "enabled": false,
+    "rule": null,
+    "fires": null,
+    "probability": null
+   }
+  },
+  {
+   "id": "airqo_g5207",
+   "site_name": "Umoja Nairobi, Kenya",
+   "lat": -1.2845336394588065,
+   "lon": 36.89000349311147,
+   "reliability": "Reliable",
+   "now": {
+    "aqi": 109.0,
+    "category": "Unhealthy for Sensitive Groups",
+    "pm25": 22.7,
+    "pm10": 40.1,
+    "pm25_24h": 38.9,
+    "at": "2026-11-25T08:00:00+00:00"
+   },
+   "tomorrow": {
+    "aqi": 96.5,
+    "category": "Moderate",
+    "pm25": 32.6,
+    "pm10": 47.0,
+    "target_time": "2026-11-26T08:00:00+00:00",
+    "method": "Blend",
+    "degraded_inputs": []
+   },
+   "alert": {
+    "enabled": false,
+    "rule": null,
+    "fires": null,
+    "probability": null
+   }
+  },
+  {
+   "id": "airqo_g5278",
+   "site_name": "Buruburu, Makadara, Nairobi, kenya",
+   "lat": -1.2833654898448668,
+   "lon": 36.885239437428446,
+   "reliability": "Use with care",
+   "now": {
+    "aqi": 99.0,
+    "category": "Moderate",
+    "pm25": 8.1,
+    "pm10": 6.2,
+    "pm25_24h": 35.0,
+    "at": "2026-11-25T08:00:00+00:00"
+   },
+   "tomorrow": {
+    "aqi": 90.7,
+    "category": "Moderate",
+    "pm25": 30.3,
+    "pm10": 43.4,
+    "target_time": "2026-11-26T08:00:00+00:00",
+    "method": "Blend",
+    "degraded_inputs": []
+   },
+   "alert": {
+    "enabled": true,
+    "rule": "Persistence rule",
+    "fires": false,
+    "probability": null
+   }
+  },
+  {
+   "id": "airqo-g5145",
+   "site_name": "Baba Dogo",
+   "lat": -1.2392947668196062,
+   "lon": 36.88831892637334,
+   "reliability": "Use with care",
+   "now": {
+    "aqi": 86.0,
+    "category": "Moderate",
+    "pm25": 20.4,
+    "pm10": 21.1,
+    "pm25_24h": 28.0,
+    "at": "2026-11-25T08:00:00+00:00"
+   },
+   "tomorrow": {
+    "aqi": 81.4,
+    "category": "Moderate",
+    "pm25": 25.5,
+    "pm10": 37.7,
+    "target_time": "2026-11-26T08:00:00+00:00",
+    "method": "Blend",
+    "degraded_inputs": []
+   },
+   "alert": {
+    "enabled": false,
+    "rule": null,
+    "fires": null,
+    "probability": null
+   }
+  },
+  {
+   "id": "airqo_g5301",
+   "site_name": "Woodley Kibera",
+   "lat": -1.30321,
+   "lon": 36.77775,
+   "reliability": "Reliable",
+   "now": {
+    "aqi": 97.0,
+    "category": "Moderate",
+    "pm25": 113.8,
+    "pm10": 117.0,
+    "pm25_24h": 33.8,
+    "at": "2026-11-25T01:00:00+00:00"
+   },
+   "tomorrow": {
+    "aqi": 85.8,
+    "category": "Moderate",
+    "pm25": 28.6,
+    "pm10": 35.1,
+    "target_time": "2026-11-26T01:00:00+00:00",
+    "method": "Ridge",
+    "degraded_inputs": []
+   },
+   "alert": {
+    "enabled": false,
+    "rule": null,
+    "fires": null,
+    "probability": null
+   }
+  }
+ ]
+}
